@@ -14,10 +14,19 @@
 		{
 			"Sections": [
 				{
-					"Target": "",
-					"TextAlignment": "center",
-					"Title": "Button 1",
-					"Visible": true
+					"Buttons": [
+						{
+							"TextAlignment": "center",
+							"Title": "Button 1",
+							"Visible": true
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionButtonTable0",
+					"_Type": "Section.Type.ButtonTable"
 				}
 			],
 			"Target": "",
