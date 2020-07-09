@@ -1,0 +1,6 @@
+{
+	"AppId": "com.mdk.training",
+	"DestinationName": "com.sap.demoservice",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices"
+}

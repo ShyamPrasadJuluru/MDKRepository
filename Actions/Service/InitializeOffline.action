@@ -1,0 +1,21 @@
+{
+	"Service": "/MDKProject/Services/MDKProjectService.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}, {
+		"Name": "Suppliers",
+		"Query": "Suppliers"
+	}, {
+		"Name": "Products",
+		"Query": "Products"
+	}],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/MDKProject/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/MDKProject/Actions/Service/InitializeOfflineFailureMessage.action"
+}

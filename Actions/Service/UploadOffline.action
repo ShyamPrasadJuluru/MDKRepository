@@ -1,0 +1,9 @@
+{
+	"Service": "/MDKProject/Services/MDKProjectService.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/MDKProject/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/MDKProject/Actions/Service/SyncFailureMessage.action"
+}

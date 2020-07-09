@@ -1,0 +1,18 @@
+{
+	"Service": "/MDKProject/Services/MDKProjectService.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}, {
+		"Name": "Suppliers",
+		"Query": "Suppliers"
+	}, {
+		"Name": "Products",
+		"Query": "Products"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/MDKProject/Actions/Service/SyncFailureMessage.action"
+}

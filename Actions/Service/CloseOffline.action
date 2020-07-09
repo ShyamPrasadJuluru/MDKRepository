@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/MDKProject/Services/MDKProjectService.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/MDKProject/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/MDKProject/Actions/Service/CloseOfflineFailureMessage.action"
+}
