@@ -17,6 +17,11 @@
 					"Buttons": [
 						{
 							"TextAlignment": "center",
+							"Title": "Button 2",
+							"Visible": true
+						},
+                        						{
+							"TextAlignment": "center",
 							"Title": "Button 1",
 							"Visible": true
 						}
