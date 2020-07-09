@@ -16,11 +16,12 @@
 				{
 					"Buttons": [
 						{
+							"OnPress": "/MDKProject/Actions/ProductListNavigation.action",
 							"TextAlignment": "center",
-							"Title": "Button 2",
+							"Title": "Products",
 							"Visible": true
 						},
-                        						{
+						{
 							"TextAlignment": "center",
 							"Title": "Button 1",
 							"Visible": true

@@ -1,0 +1,34 @@
+{
+	"Caption": "ProductList",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImage": "res://mdk_logo.png",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": true,
+						"StatusText": "{{#Property:Price}} {{#Property:CurrencyCode}}",
+						"Subhead": "{{#Property:CategoryName}}",
+						"Title": "{ProductId}"
+					},
+					"Target": {
+						"EntitySet": "Products",
+						"Service": "/MDKProject/Services/MDKProjectService.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ProductList",
+	"_Type": "Page"
+}
